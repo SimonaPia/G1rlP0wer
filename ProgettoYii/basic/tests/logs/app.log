@@ -1,0 +1,286 @@
+2023-05-12 16:14:08 [::1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $messaggio in C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\views\site\say.php:4
+Stack trace:
+#0 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\views\site\say.php(4): yii\base\ErrorHandler->handleError()
+#1 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(347): require('...')
+#2 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#3 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#4 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#5 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\controllers\SiteController.php(131): yii\base\Controller->render()
+#6 [internal function]: app\controllers\SiteController->actionSay()
+#7 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#8 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#10 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#11 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#12 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2023-05-12 16:14:08 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/say'
+    'messaggio' => 'Ciao'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\OneDrive\\Desktop\\UNI\\INGEGNERIA_DEL_SOFTWARE\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '49880'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=site/say&messaggio=Ciao'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\OneDrive\\Desktop\\UNI\\INGEGNERIA_DEL_SOFTWARE\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site/say&messaggio=Ciao'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'REQUEST_TIME_FLOAT' => 1683908048.8094
+    'REQUEST_TIME' => 1683908048
+]
+2023-05-12 16:17:56 [::1][-][o14odg20o50cp12ha6n3c59p2j][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Either GD PHP extension with FreeType support or ImageMagick PHP extension with PNG support is required. in C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\captcha\Captcha.php:175
+Stack trace:
+#0 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\captcha\Captcha.php(94): yii\captcha\Captcha::checkRequirements()
+#1 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\captcha\Captcha->init()
+#2 [internal function]: yii\base\BaseObject->__construct()
+#3 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\di\Container.php(419): ReflectionClass->newInstanceArgs()
+#4 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\di\Container.php(170): yii\di\Container->build()
+#5 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\BaseYii.php(365): yii\di\Container->get()
+#6 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\Widget.php(143): yii\BaseYii::createObject()
+#7 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\widgets\ActiveField.php(795): yii\base\Widget::widget()
+#8 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\views\site\contact.php(55): yii\widgets\ActiveField->widget()
+#9 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(347): require('...')
+#10 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#11 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#12 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#13 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\controllers\SiteController.php(115): yii\base\Controller->render()
+#14 [internal function]: app\controllers\SiteController->actionContact()
+#15 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#16 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#17 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#18 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#19 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#20 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#21 {main}
+2023-05-12 16:17:56 [::1][-][o14odg20o50cp12ha6n3c59p2j][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => 'o14odg20o50cp12ha6n3c59p2j'
+    '_csrf' => '623eda999d3b11c2c0a16b1d159c8c1197ae8f1d7eabbddeef58b5603d17d55ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_C7p2658-aXDxqJ2pSy51jig2lpSi8Bt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\OneDrive\\Desktop\\UNI\\INGEGNERIA_DEL_SOFTWARE\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '50122'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=site%2Fcontact'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\OneDrive\\Desktop\\UNI\\INGEGNERIA_DEL_SOFTWARE\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=o14odg20o50cp12ha6n3c59p2j; _csrf=623eda999d3b11c2c0a16b1d159c8c1197ae8f1d7eabbddeef58b5603d17d55ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_C7p2658-aXDxqJ2pSy51jig2lpSi8Bt%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683908276.4644
+    'REQUEST_TIME' => 1683908276
+]
+2023-05-12 16:28:52 [::1][-][o14odg20o50cp12ha6n3c59p2j][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Either GD PHP extension with FreeType support or ImageMagick PHP extension with PNG support is required. in C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\captcha\Captcha.php:175
+Stack trace:
+#0 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\captcha\Captcha.php(94): yii\captcha\Captcha::checkRequirements()
+#1 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\captcha\Captcha->init()
+#2 [internal function]: yii\base\BaseObject->__construct()
+#3 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\di\Container.php(419): ReflectionClass->newInstanceArgs()
+#4 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\di\Container.php(170): yii\di\Container->build()
+#5 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\BaseYii.php(365): yii\di\Container->get()
+#6 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\Widget.php(143): yii\BaseYii::createObject()
+#7 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\widgets\ActiveField.php(795): yii\base\Widget::widget()
+#8 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\views\site\contact.php(55): yii\widgets\ActiveField->widget()
+#9 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(347): require('...')
+#10 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#11 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#12 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#13 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\controllers\SiteController.php(115): yii\base\Controller->render()
+#14 [internal function]: app\controllers\SiteController->actionContact()
+#15 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#16 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#17 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#18 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#19 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#20 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#21 {main}
+2023-05-12 16:28:51 [::1][-][o14odg20o50cp12ha6n3c59p2j][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => 'o14odg20o50cp12ha6n3c59p2j'
+    '_csrf' => '623eda999d3b11c2c0a16b1d159c8c1197ae8f1d7eabbddeef58b5603d17d55ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_C7p2658-aXDxqJ2pSy51jig2lpSi8Bt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\OneDrive\\Desktop\\UNI\\INGEGNERIA_DEL_SOFTWARE\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '50485'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=site%2Fcontact'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\OneDrive\\Desktop\\UNI\\INGEGNERIA_DEL_SOFTWARE\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=o14odg20o50cp12ha6n3c59p2j; _csrf=623eda999d3b11c2c0a16b1d159c8c1197ae8f1d7eabbddeef58b5603d17d55ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_C7p2658-aXDxqJ2pSy51jig2lpSi8Bt%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683908931.9376
+    'REQUEST_TIME' => 1683908931
+]
+2023-05-12 16:31:57 [::1][-][o14odg20o50cp12ha6n3c59p2j][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Either GD PHP extension with FreeType support or ImageMagick PHP extension with PNG support is required. in C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\captcha\Captcha.php:175
+Stack trace:
+#0 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\captcha\Captcha.php(94): yii\captcha\Captcha::checkRequirements()
+#1 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\captcha\Captcha->init()
+#2 [internal function]: yii\base\BaseObject->__construct()
+#3 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\di\Container.php(419): ReflectionClass->newInstanceArgs()
+#4 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\di\Container.php(170): yii\di\Container->build()
+#5 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\BaseYii.php(365): yii\di\Container->get()
+#6 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\Widget.php(143): yii\BaseYii::createObject()
+#7 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\widgets\ActiveField.php(795): yii\base\Widget::widget()
+#8 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\views\site\contact.php(55): yii\widgets\ActiveField->widget()
+#9 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(347): require('...')
+#10 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#11 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#12 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#13 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\controllers\SiteController.php(115): yii\base\Controller->render()
+#14 [internal function]: app\controllers\SiteController->actionContact()
+#15 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#16 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#17 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#18 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#19 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#20 C:\Users\pinto\OneDrive\Desktop\UNI\INGEGNERIA_DEL_SOFTWARE\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#21 {main}
+2023-05-12 16:31:57 [::1][-][o14odg20o50cp12ha6n3c59p2j][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => 'o14odg20o50cp12ha6n3c59p2j'
+    '_csrf' => '623eda999d3b11c2c0a16b1d159c8c1197ae8f1d7eabbddeef58b5603d17d55ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_C7p2658-aXDxqJ2pSy51jig2lpSi8Bt\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\OneDrive\\Desktop\\UNI\\INGEGNERIA_DEL_SOFTWARE\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '50727'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=site%2Fcontact'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\OneDrive\\Desktop\\UNI\\INGEGNERIA_DEL_SOFTWARE\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=o14odg20o50cp12ha6n3c59p2j; _csrf=623eda999d3b11c2c0a16b1d159c8c1197ae8f1d7eabbddeef58b5603d17d55ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_C7p2658-aXDxqJ2pSy51jig2lpSi8Bt%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683909117.61
+    'REQUEST_TIME' => 1683909117
+]
