@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\config",
+    "\\controllers",
+    "\\models",
+    "\\views",
+    "\\views\\account",
+    "\\views\\fonte",
+    "\\views\\gestione-notizia",
+    "\\views\\layouts",
+    "\\views\\site"
+  ],
+  "SelectedNode": "\\views\\fonte\\visualizza.php",
+  "PreviewInSolutionExplorer": false
+}
