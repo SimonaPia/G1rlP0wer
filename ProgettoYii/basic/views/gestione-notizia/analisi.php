@@ -44,9 +44,9 @@ use yii\controller\FonteController;
         
     ?>
     <p>
-        Il link inserito è <?= $risultato?>
+        Il link inserito ï¿½ <?= $risultato?>
         ed ha indice <?= $indice?>
-
+        perciÃ² <?= $messaggio?>
         
     </p>
 </div>

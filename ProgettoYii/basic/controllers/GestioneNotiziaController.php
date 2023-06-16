@@ -49,8 +49,14 @@ class GestioneNotiziaController extends Controller
         $notizia->Argomento=$argomenti;
         $notizia->Incongruenze=$incongruenze;
 
+        $controllo=0;
 
-        $redirectUrl = Url::to(['gestione-notizia/analisi', 'indice' => $indice]);
+        if(Yii::$app->request->post('segnala' && 'b1')!==null)
+        {
+            $controllo=1;
+        }
+
+        $redirectUrl = Url::to(['gestione-notizia/analisi', 'indice' => $indice, 'controllo' => $controllo]);
 
         if ($notizia->save()) {
             return $this->redirect($redirectUrl);
@@ -63,6 +69,8 @@ class GestioneNotiziaController extends Controller
         }
         
         return $this->render('inserimento');
+
+
     }
 
     public function incongruenze($indice)
@@ -102,7 +110,7 @@ class GestioneNotiziaController extends Controller
          return $responseData;
     }
 
-    public function actionAnalisi($indice)
+    public function actionAnalisi($indice, $controllo)
     {
         $link_notizia=Yii::$app->session->get('link');
 
@@ -131,12 +139,13 @@ class GestioneNotiziaController extends Controller
          }
 
          $categoria=$this->categoria();
-         $this->analisi();
+         $messaggio=$this->analisi($controllo);
+       
 
-        return $this->render('analisi', ['jsonData' => json_encode($data), 'indice' => json_encode($indice)]);
+    return $this->render('analisi', ['jsonData' => json_encode($data), 'indice' => json_encode($indice),'messaggio'=>$messaggio]);
     }
 
-    public function analisi()
+    public function analisi($controllo)
 	{
 		$link_notizia=Yii::$app->session->get('link');
     
@@ -188,7 +197,7 @@ class GestioneNotiziaController extends Controller
 
         $fonte->Fonte=$domain;
         $fonte->Indice=$indice;
-        $fonte->Categoria=$argomenti;
+        $fonte->Argomento=$argomenti;
         /*$fonte->Indice=$indice;
         $notizia->Categoria=$contentType;
         $notizia->Argomento=$argomenti;
@@ -208,8 +217,40 @@ class GestioneNotiziaController extends Controller
         }
         
         //return $this->render('inserimento');
-	}
 
-    
+
+        function segnalazione($link_notizia)
+        {
+            $logFile = 'segnalazione.log';
+            $timestamp = date('Y-m-d H:i:s');
+            $logMessage = "[$timestamp] Segnalazione di notizia: $link_notizia" . PHP_EOL;
+        
+            // Apri il file di log in modalità append
+            $handle = fopen($logFile, 'a');
+            // Scrivi il messaggio di segnalazione nel file di log
+            fwrite($handle, $logMessage);
+            // Chiudi il file
+            fclose($handle);
+        }
+        
+        $blacklist = array();
+        
+        $messaggio='';
+
+        if($controllo==1)
+        {
+            // Aggiungi elementi alla blacklist
+            $blacklist[] = 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg';
+        
+            // Verifica se un elemento è presente nella blacklist
+            $siteToCheck = $link_notizia;
+            if (in_array($siteToCheck, $blacklist)) {
+            $messaggio='Il sito è nella blacklist.';
+            } else {
+             $messaggio='Il sito non è nella blacklist.';
+             }
+        }
+        return $messaggio;
+    }
 
 }
