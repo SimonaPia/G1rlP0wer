@@ -12,12 +12,7 @@ use app\models\ContactForm;
 use app\models\RegistrationForm;
 use app\models\Notizia;
 
-<<<<<<< HEAD
-//ciao
-//buonanotte
 
-=======
->>>>>>> ede1999fbb09cd652a16d1a75442783a48fde25e
 class SiteController extends Controller
 {
     /**

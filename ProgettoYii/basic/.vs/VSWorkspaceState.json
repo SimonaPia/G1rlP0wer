@@ -11,6 +11,6 @@
     "\\views\\layouts",
     "\\views\\site"
   ],
-  "SelectedNode": "\\views\\fonte\\visualizza.php",
+  "SelectedNode": "\\controllers\\SiteController.php",
   "PreviewInSolutionExplorer": false
 }
