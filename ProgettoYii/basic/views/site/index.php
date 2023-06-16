@@ -13,7 +13,7 @@ $this->title = 'G1rl P0wer';
 <div class="site-index">
    
     <div class="jumbotron text-center bg-trasparents">
-        <p class='titolo'>G1rl P0wer</p>
+        <p class='titolo'>Speteguless</p>
     </div>
 
     <div class="body-content">
