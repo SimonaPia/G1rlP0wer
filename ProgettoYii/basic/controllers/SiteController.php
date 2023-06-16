@@ -72,7 +72,7 @@ class SiteController extends Controller
             $link_notizia=$model->Notizia;
 
             //setto una variabile di sessione per poterla usare in vari controller 
-            Yii::$app->session->set('link', $link_notizia);
+            Yii::$app->session->set('notizia', $link_notizia);
 
             //mi sposto in un'altra pagina
             return $this->redirect(['gestione-notizia/inserimento']);
