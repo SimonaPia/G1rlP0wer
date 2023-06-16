@@ -20,9 +20,12 @@ class GestioneNotiziaController extends Controller
 
         if (stripos($link_notizia, "https") !== false) {
              $categoria=$this->categoria();
+             echo 'ciao';
          }        
         
         //$dataCategoria=json_decode($categoria, true);
+
+        echo 'ciao';
 
         if(!empty($categoria))
         {
@@ -54,6 +57,15 @@ class GestioneNotiziaController extends Controller
             $notizia->Argomento=$argomenti;
             $notizia->Incongruenze=$incongruenze;
 
+            echo $contentType;
+
+            if(strstr($contentType, 'image/jpeg'))
+            {
+                echo 'ciao';
+                $this->ricercaSoggetti();
+            }
+
+            $this->ricercaSoggetti();
 
             $redirectUrl = Url::to(['gestione-notizia/analisi', 'indice' => $indice]);
 
@@ -224,6 +236,84 @@ class GestioneNotiziaController extends Controller
 
 
          return $this->render('analisi', ['jsonData' => json_encode($data), 'indice' => json_encode($indice)]);
+    }
+
+    public function ricercaSoggetti()
+    {
+        $link_notizia=Yii::$app->session->get('notizia');
+
+        //$image_url = 'https://docs.imagga.com/static/images/docs/sample/japan-605234_1280.jpg';
+        $api_credentials = array(
+        'key' => 'acc_21314e94b826ef7',
+        'secret' => 'b959fa4c880b462a844ba43daa8e09e9'
+        );
+
+        $ch = curl_init();
+
+        curl_setopt($ch, CURLOPT_URL, 'https://api.imagga.com/v2/tags?image_url='.$link_notizia);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
+        curl_setopt($ch, CURLOPT_HEADER, FALSE);
+        curl_setopt($ch, CURLOPT_USERPWD, $api_credentials['key'].':'.$api_credentials['secret']);
+
+        $response = curl_exec($ch);
+        curl_close($ch);
+
+        $json_response = json_decode($response);
+        var_dump($json_response);
+        echo json_encode($json_response);
+
+        /*$client = new Client();
+
+        // URL dell'API di Google Cloud Vision
+        $url = 'https://vision.googleapis.com/v1/images:annotate?key=AIzaSyCoqCv86VXhWoIdCZnRLAEnrf6D62SU9MM';
+
+        // Costruisci l'array del corpo della richiesta
+        $requestBody = [
+            'requests' => [
+                [
+                    'image' => [
+                        'source' => [
+                            'imageUri' => $link_notizia,
+                        ],
+                    ],
+                    'features' => [
+                        [
+                            'type' => 'LABEL_DETECTION',
+                            'maxResults' => 10,
+                        ],
+                    ],
+                ],
+            ],
+        ];*/
+
+        // Effettua la richiesta POST utilizzando Guzzle
+        /*$response = $client->post($url, [
+            'headers' => [
+                'Content-Type' => 'application/json',
+            ],
+            'json' => $requestBody,
+        ]);*/
+
+        // Esegui la richiesta POST
+        /*$response = $client->createRequest()
+                    ->setMethod('POST')
+                    ->setUrl($url)
+                    ->setData($requestBody)
+                    ->send();
+
+        // Verifica se la richiesta è andata a buon fine
+        if ($response->isOk) {
+        // Ottieni il corpo della risposta come stringa
+        $responseBody = $response->content;
+
+        // Decodifica il corpo della risposta JSON
+        $data = json_decode($responseBody, true);
+
+        echo json_encode($data);
+        } else {
+        // La richiesta ha restituito un errore
+        echo 'Errore nella richiesta: ' . $response->statusCode;
+        }*/
     }
 
     public function analisi()

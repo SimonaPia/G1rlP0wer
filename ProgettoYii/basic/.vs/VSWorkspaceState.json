@@ -11,6 +11,6 @@
     "\\views\\layouts",
     "\\views\\site"
   ],
-  "SelectedNode": "\\controllers\\SiteController.php",
+  "SelectedNode": "\\models\\Immagine.php",
   "PreviewInSolutionExplorer": false
 }
