@@ -44,9 +44,15 @@ use yii\controller\FonteController;
         
     ?>
     <p>
+<<<<<<< HEAD
         Il link inserito ÔøΩ <?= $risultato?>
         ed ha indice <?= $indice?>
         perci√≤ <?= $messaggio?>
+=======
+        Il link inserito Ë <?= $risultato?>
+        ed ha indice <?= $indice?>
+
+>>>>>>> b2fafa1eb30e01264581f1636d39b9bace8f1561
         
     </p>
 </div>

@@ -13,7 +13,11 @@ $this->title = 'G1rl P0wer';
 <div class="site-index">
    
     <div class="jumbotron text-center bg-trasparents">
+<<<<<<< HEAD
         <p class='titolo'>G1rl P0wer</p>
+=======
+        <p class='titolo'>Speteguless</p>
+>>>>>>> b2fafa1eb30e01264581f1636d39b9bace8f1561
     </div>
 
     <div class="body-content">
@@ -23,6 +27,7 @@ $this->title = 'G1rl P0wer';
         
         <?= $form->field($model, 'Notizia')->textInput(['class'=>'ricerca']) ?>
         <?= Html::submitButton('Verifica notizia', ['class'=>'verifica']) ?>
+<<<<<<< HEAD
         <?= Html::submitButton('Segnala notizia', ['name'=>'segnala', 'class'=>'verifica']) ?>
         <?php ActiveForm::end(); ?>
 
@@ -40,4 +45,10 @@ $this->title = 'G1rl P0wer';
 
 
 
+=======
+
+        <?php ActiveForm::end(); ?>
+
+    </div>
+>>>>>>> b2fafa1eb30e01264581f1636d39b9bace8f1561
 </div>
