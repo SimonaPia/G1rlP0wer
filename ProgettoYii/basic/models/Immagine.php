@@ -3,8 +3,9 @@
 namespace app\models;
 
 use Yii;
+use yii\base\Model;
 
-class Immagine extends Models
+class Immagine extends Model
 {
 	private string $metadati;
 	private string $soggetti;
