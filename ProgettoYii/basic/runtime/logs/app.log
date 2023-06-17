@@ -25178,3 +25178,118 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1686950585.33
     'REQUEST_TIME' => 1686950585
 ]
+2023-06-17 07:10:18 [::1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\Connection.php:722
+Stack trace:
+#0 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\Connection.php(722): PDO->__construct()
+#1 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#3 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo()
+#5 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\Command.php(1163): yii\db\Command->prepare()
+#6 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\Command.php(410): yii\db\Command->queryInternal()
+#7 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(320): yii\db\Command->queryAll()
+#8 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns()
+#9 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema()
+#10 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata()
+#11 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema()
+#12 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#13 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#14 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute()
+#15 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(2280): yii\db\BaseActiveRecord->__get()
+#16 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(1372): yii\helpers\BaseHtml::getAttributeValue()
+#17 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(1428): yii\helpers\BaseHtml::activeInput()
+#18 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\widgets\ActiveField.php(407): yii\helpers\BaseHtml::activeTextInput()
+#19 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\views\site\index.php(24): yii\widgets\ActiveField->textInput()
+#20 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(347): require('...')
+#21 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#22 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#23 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#24 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\SiteController.php(92): yii\base\Controller->render()
+#25 [internal function]: app\controllers\SiteController->actionIndex()
+#26 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#27 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#28 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#29 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#30 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#31 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#32 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\Connection.php:648
+Stack trace:
+#0 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#1 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo()
+#3 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\Command.php(1163): yii\db\Command->prepare()
+#4 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\Command.php(410): yii\db\Command->queryInternal()
+#5 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(320): yii\db\Command->queryAll()
+#6 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns()
+#7 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema()
+#8 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata()
+#9 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema()
+#10 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(473): yii\db\ActiveRecord::getTableSchema()
+#11 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(498): yii\db\ActiveRecord->attributes()
+#12 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(289): yii\db\BaseActiveRecord->hasAttribute()
+#13 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(2280): yii\db\BaseActiveRecord->__get()
+#14 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(1372): yii\helpers\BaseHtml::getAttributeValue()
+#15 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(1428): yii\helpers\BaseHtml::activeInput()
+#16 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\widgets\ActiveField.php(407): yii\helpers\BaseHtml::activeTextInput()
+#17 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\views\site\index.php(24): yii\widgets\ActiveField->textInput()
+#18 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(347): require('...')
+#19 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#20 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#21 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#22 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\SiteController.php(92): yii\base\Controller->render()
+#23 [internal function]: app\controllers\SiteController->actionIndex()
+#24 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#25 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#26 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#27 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#28 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#29 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#30 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 2002
+    [2] => Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione
+)
+
+2023-06-17 07:10:12 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '53337'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'REQUEST_TIME_FLOAT' => 1686985812.539
+    'REQUEST_TIME' => 1686985812
+]
