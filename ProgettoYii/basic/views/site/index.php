@@ -24,6 +24,16 @@ $this->title = 'G1rl P0wer';
         <?= $form->field($model, 'Notizia')->textInput(['class'=>'ricerca']) ?>
         <?= Html::submitButton('Verifica notizia', ['class'=>'verifica']) ?>
         <?= Html::submitButton('Segnala notizia', ['name'=>'segnala', 'class'=>'verifica']) ?>
+<<<<<<< HEAD
+        <?php ActiveForm::end(); ?>
+
+        <?php $form=ActiveForm::begin(); ?>
+       
+        echo Html::submitButton('Bottone 1', ['name' => 'segnala', 'value' => 'b1', 'class' => 'btn btn-primary']);
+        echo Html::submitButton('Bottone 2', ['name' => 'segnala', 'value' => 'b2', 'class' => 'btn btn-primary']);
+
+=======
+>>>>>>> 4133c098a6bbac69331ab3e826822db5ccd86679
         <?php ActiveForm::end(); ?>
 
         

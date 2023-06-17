@@ -23,7 +23,7 @@ class GestioneNotiziaController extends Controller
 {
     public function actionInserimento()
     {
-        $link_notizia=Yii::$app->session->get('notizia');
+        $link_notizia=Yii::$app->session->get('link');
 
         if (stripos($link_notizia, "http") !== false && stripos(substr($link_notizia, -7), ".") !== false) 
         {
@@ -34,62 +34,59 @@ class GestioneNotiziaController extends Controller
         {
             $data1 = $categoria['data'];
 
-            $attributes = $data1['attributes'];
-            $lastHtpResponseHeaders = $attributes['last_http_response_headers'];
-            $contentType=$lastHtpResponseHeaders['Content-Type'];
-            $metaDati=$lastHtpResponseHeaders['Last-Modified'];
+        $attributes = $data1['attributes'];
+        $lastHtpResponseHeaders = $attributes['last_http_response_headers'];
+        $contentType=$lastHtpResponseHeaders['Content-Type'];
+        $metaDati=$lastHtpResponseHeaders['Last-Modified'];
 
-            $lastAnalysisStats=$attributes['last_analysis_stats'];
-            $harmless=$lastAnalysisStats['harmless'];
-            $malicious=$lastAnalysisStats['malicious'];
-            $suspicious=$lastAnalysisStats['suspicious'];
-            $undetected=$lastAnalysisStats['undetected'];
-            $timeout=$lastAnalysisStats['timeout'];
+        $lastAnalysisStats=$attributes['last_analysis_stats'];
+        $harmless=$lastAnalysisStats['harmless'];
+        $malicious=$lastAnalysisStats['malicious'];
+        $suspicious=$lastAnalysisStats['suspicious'];
+        $undetected=$lastAnalysisStats['undetected'];
+        $timeout=$lastAnalysisStats['timeout'];
 
-            $categories=$attributes['categories'];
-            $argomenti=implode(', ', $categories);
+        $categories=$attributes['categories'];
+        $argomenti=implode(', ', $categories);
 
-            $indice=($harmless+$malicious+$suspicious+$undetected+$timeout)/5;
+        $indice=($harmless+$malicious+$suspicious+$undetected+$timeout)/5;
 
-            $incongruenze=$this->incongruenze($indice);
+        $incongruenze=$this->incongruenze($indice);
 
-            $notizia=new Notizia();
+        $notizia=new Notizia();
 
-            $notizia->Notizia=$link_notizia;
-            $notizia->Indice=$indice;
-            $notizia->Categoria=$contentType;
-            $notizia->Argomento=$argomenti;
-            $notizia->Incongruenze=$incongruenze;
+        $notizia->Notizia=$link_notizia;
+        $notizia->Indice=$indice;
+        $notizia->Categoria=$contentType;
+        $notizia->Argomento=$argomenti;
+        $notizia->Incongruenze=$incongruenze;
 
-            echo $contentType;
+        $controllo=0;
 
             if(strstr($contentType, 'image/jpeg'))
             {
                 $soggetti=$this->ricercaSoggetti();
                 
                 $immagine=new Immagine();
-                $immagine->setMetadati($metaDati);
+                $immagine->metadati=$metaDati;
             }
 
-            
-            $redirectUrl = Url::to(['gestione-notizia/analisi', 'indice' => $indice]);
+        Yii::$app->session->set('controllo', $controllo);
 
-            if ($notizia->save()) {
-                return $this->redirect($redirectUrl);
-            }
-            else 
-            {
-                // Salvataggio fallito, visualizza gli errori
-                $errors = $notizia->getErrors();
-                var_dump($errors);
-            }
+        $redirectUrl = Url::to(['gestione-notizia/analisi', 'indice' => $indice]);
+
+        if ($notizia->save()) {
+            return $this->redirect($redirectUrl);
+        }
+        else 
+        {
+            // Salvataggio fallito, visualizza gli errori
+            $errors = $notizia->getErrors();
+            var_dump($errors);
         }
         
-        $indice=50;
-        $redirectUrl = Url::to(['gestione-notizia/analisi', 'indice' => $indice]);
-        return $this->redirect($redirectUrl);
-
         return $this->render('inserimento');
+        }
     }
 
     //DA TESTARE
@@ -110,17 +107,6 @@ class GestioneNotiziaController extends Controller
             $requestUrl=$url1.'?'.$stringaQuery;
 
             echo $requestUrl;
-
-            $response = $client->createRequest()
-                        ->setMethod('GET')
-                        ->setUrl($requestUrl)
-                        ->send();
-
-             if ($response->getStatusCode() == 200) {
-                 $data = $response->getData();
-             } else {
-                 echo 'Richiesta fallita con ' . $response->getStatusCode() . ': ' . $response->getContent();
-             }
     }
 
     public function incongruenze($indice)
@@ -133,7 +119,7 @@ class GestioneNotiziaController extends Controller
 
     public function categoria()
     {
-        $link_notizia=Yii::$app->session->get('notizia');
+        $link_notizia=Yii::$app->session->get('link');
 
         $urlId = rtrim(strtr(base64_encode($link_notizia), '+/', '-_'), '=');
     
@@ -162,7 +148,7 @@ class GestioneNotiziaController extends Controller
 
     public function actionAnalisi($indice)
     {
-        $link_notizia=Yii::$app->session->get('notizia');
+        $link_notizia=Yii::$app->session->get('link');
 
         $client = new Client();
 
@@ -189,49 +175,51 @@ class GestioneNotiziaController extends Controller
          }
 
 
-        if (stripos($link_notizia, "http") !== false) 
-        {
-            if(stripos(substr($link_notizia, -7), ".") !== false)
-                $categoria=$this->categoria($link_notizia);
-
-            $soggetti=$this->ricercaSoggetti();
-
-            $dataSoggetti=json_decode($soggetti, true);
-            $entity=$dataSoggetti['entity_list'];
-
-            $primo=$entity['0'];
-            $secondo=$entity['1'];
-            $terzo=$entity['2'];
-            $quinto=$entity['5'];
-
-            $principale=$primo['form'];
-            $secondario1=$secondo['form'];
-            $secondario2=$terzo['form'];
-            $luogo=$quinto['form'];
-
-            $sogg=array($principale, $secondario1, $secondario2, $luogo);
-
-            $soggetti=json_encode($sogg);
-
-            $tempo=$dataSoggetti['time_expression_list'];
-            $primo=$tempo['0'];
-            $data=$primo['actual_time'];
-
-            $data=json_encode($data);
-
-            $testo=new Testo();
-            $testo->setSoggetti($soggetti);
-            $testo->setData($data);
-
-        }         
-
-        // Creazione dell'istanza del controller di destinazione
-        $controller = Yii::$app->createController('fonte')[0];
+         if (stripos($link_notizia, "http") !== false) 
+         {
+             if(stripos(substr($link_notizia, -7), ".") !== false)
+                 $categoria=$this->categoria($link_notizia);
+ 
+             $soggetti=$this->ricercaSoggetti();
+ 
+             $dataSoggetti=json_decode($soggetti, true);
+             $entity=$dataSoggetti['entity_list'];
+ 
+             $primo=$entity['0'];
+             $secondo=$entity['1'];
+             $terzo=$entity['2'];
+             $quinto=$entity['5'];
+ 
+             $principale=$primo['form'];
+             $secondario1=$secondo['form'];
+             $secondario2=$terzo['form'];
+             $luogo=$quinto['form'];
+ 
+             $sogg=array($principale, $secondario1, $secondario2, $luogo);
+ 
+             $soggetti=json_encode($sogg);
+ 
+             $tempo=$dataSoggetti['time_expression_list'];
+             $primo=$tempo['0'];
+             $data=$primo['actual_time'];
+ 
+             $data=json_encode($data);
+ 
+             $testo=new Testo();
+             $testo->setSoggetti($soggetti);
+             $testo->setData($data);
+ 
+         }         
+ 
+         // Creazione dell'istanza del controller di destinazione
+         $controller = Yii::$app->createController('fonte')[0];
 
         // Chiamata alla funzione desiderata del controller di destinazione
         $controller->actionAnalisiFonte();
+                  
+         $messaggio=$this->segnalazione($link_notizia);
 
-        return $this->render('analisi', ['jsonData' => json_encode($data), 'indice' => json_encode($indice)]);
+        return $this->render('analisi', ['jsonData' => json_encode($data), 'indice' => json_encode($indice), 'messaggio' => $messaggio]);
     }
 
     public function ricercaSoggetti()
@@ -267,5 +255,40 @@ class GestioneNotiziaController extends Controller
 
         return $soggetti;
     }  
+
+    public function segnalazione($link_notizia)
+    {
+         
+        $logFile = 'segnalazione.log';
+            $timestamp = date('Y-m-d H:i:s');
+            $logMessage = "[$timestamp] Segnalazione di notizia: $link_notizia" . PHP_EOL;
+        
+            // Apri il file di log in modalità append
+            $handle = fopen($logFile, 'a');
+            // Scrivi il messaggio di segnalazione nel file di log
+            fwrite($handle, $logMessage);
+            // Chiudi il file
+            fclose($handle);
+        
+        $blacklist = array();
+        
+        $messaggio='';
+
+        if($controllo==1)
+        {
+
+            // Aggiungi elementi alla blacklist
+            $blacklist[] = 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg';
+        
+            // Verifica se un elemento è presente nella blacklist
+            $siteToCheck = $link_notizia;
+            if (in_array($siteToCheck, $blacklist)) {
+            $messaggio='Il sito è nella blacklist.';
+            } else {
+             $messaggio='Il sito non è nella blacklist.';
+             }
+        }
+        return $messaggio;
+    }
 
 }

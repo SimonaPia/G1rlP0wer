@@ -10,4 +10,3 @@ $blacklistFile = 'blacklist.txt';
 if (!file_exists($blacklistFile)) {
     touch($blacklistFile);
 }
-
