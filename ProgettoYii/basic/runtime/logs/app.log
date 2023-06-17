@@ -24164,3 +24164,1392 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1686953339.7076
     'REQUEST_TIME' => 1686953339
 ]
+2023-06-17 09:59:45 [::1][-][ffime6j5p2a2ihjec806i9oijo][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $controllo in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php:410
+Stack trace:
+#0 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(410): yii\base\ErrorHandler->handleError()
+#1 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(234): app\controllers\GestioneNotiziaController->analisi()
+#2 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#3 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#4 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#5 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#6 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#7 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#8 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#9 {main}
+2023-06-17 09:59:43 [::1][-][ffime6j5p2a2ihjec806i9oijo][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '17.8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"PuJCbxMugTP1utEwjjEYUCnMpyZztXYb\";}'
+    'PHPSESSID' => 'ffime6j5p2a2ihjec806i9oijo'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'isLoggedIn' => true
+    '__authKey' => null
+    'notizia' => 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55157'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=17.8'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=17.8'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PuJCbxMugTP1utEwjjEYUCnMpyZztXYb%22%3B%7D; PHPSESSID=ffime6j5p2a2ihjec806i9oijo'
+    'REQUEST_TIME_FLOAT' => 1686995983.3342
+    'REQUEST_TIME' => 1686995983
+]
+2023-06-17 10:02:45 [::1][-][ffime6j5p2a2ihjec806i9oijo][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $controllo in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php:417
+Stack trace:
+#0 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(417): yii\base\ErrorHandler->handleError()
+#1 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(241): app\controllers\GestioneNotiziaController->analisi()
+#2 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#3 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#4 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#5 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#6 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#7 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#8 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#9 {main}
+2023-06-17 10:02:41 [::1][-][ffime6j5p2a2ihjec806i9oijo][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '17.8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"PuJCbxMugTP1utEwjjEYUCnMpyZztXYb\";}'
+    'PHPSESSID' => 'ffime6j5p2a2ihjec806i9oijo'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'isLoggedIn' => true
+    '__authKey' => null
+    'notizia' => 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55176'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=17.8'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=17.8'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PuJCbxMugTP1utEwjjEYUCnMpyZztXYb%22%3B%7D; PHPSESSID=ffime6j5p2a2ihjec806i9oijo'
+    'REQUEST_TIME_FLOAT' => 1686996161.5464
+    'REQUEST_TIME' => 1686996161
+]
+2023-06-17 10:02:53 [::1][-][ffime6j5p2a2ihjec806i9oijo][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $controllo in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php:417
+Stack trace:
+#0 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(417): yii\base\ErrorHandler->handleError()
+#1 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(241): app\controllers\GestioneNotiziaController->analisi()
+#2 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#3 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#4 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#5 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#6 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#7 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#8 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#9 {main}
+2023-06-17 10:02:48 [::1][-][ffime6j5p2a2ihjec806i9oijo][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '17.8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"PuJCbxMugTP1utEwjjEYUCnMpyZztXYb\";}'
+    'PHPSESSID' => 'ffime6j5p2a2ihjec806i9oijo'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'isLoggedIn' => true
+    '__authKey' => null
+    'notizia' => 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55184'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=17.8'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=17.8'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PuJCbxMugTP1utEwjjEYUCnMpyZztXYb%22%3B%7D; PHPSESSID=ffime6j5p2a2ihjec806i9oijo'
+    'REQUEST_TIME_FLOAT' => 1686996168.4694
+    'REQUEST_TIME' => 1686996168
+]
+2023-06-17 10:04:17 [::1][-][ffime6j5p2a2ihjec806i9oijo][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $controllo in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php:420
+Stack trace:
+#0 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(420): yii\base\ErrorHandler->handleError()
+#1 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(244): app\controllers\GestioneNotiziaController->analisi()
+#2 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#3 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#4 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#5 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#6 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#7 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#8 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#9 {main}
+2023-06-17 10:04:15 [::1][-][ffime6j5p2a2ihjec806i9oijo][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '17.8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"PuJCbxMugTP1utEwjjEYUCnMpyZztXYb\";}'
+    'PHPSESSID' => 'ffime6j5p2a2ihjec806i9oijo'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'isLoggedIn' => true
+    '__authKey' => null
+    'notizia' => 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55229'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=17.8'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=17.8'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PuJCbxMugTP1utEwjjEYUCnMpyZztXYb%22%3B%7D; PHPSESSID=ffime6j5p2a2ihjec806i9oijo'
+    'REQUEST_TIME_FLOAT' => 1686996255.4476
+    'REQUEST_TIME' => 1686996255
+]
+2023-06-17 10:05:21 [::1][-][ffime6j5p2a2ihjec806i9oijo][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $controllo in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php:422
+Stack trace:
+#0 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(422): yii\base\ErrorHandler->handleError()
+#1 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(246): app\controllers\GestioneNotiziaController->analisi()
+#2 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#3 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#4 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#5 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#6 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#7 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#8 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#9 {main}
+2023-06-17 10:05:18 [::1][-][ffime6j5p2a2ihjec806i9oijo][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '17.8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"PuJCbxMugTP1utEwjjEYUCnMpyZztXYb\";}'
+    'PHPSESSID' => 'ffime6j5p2a2ihjec806i9oijo'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'isLoggedIn' => true
+    '__authKey' => null
+    'notizia' => 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55239'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=17.8'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=17.8'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PuJCbxMugTP1utEwjjEYUCnMpyZztXYb%22%3B%7D; PHPSESSID=ffime6j5p2a2ihjec806i9oijo'
+    'REQUEST_TIME_FLOAT' => 1686996318.4278
+    'REQUEST_TIME' => 1686996318
+]
+2023-06-17 10:06:12 [::1][-][ffime6j5p2a2ihjec806i9oijo][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $controllo in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php:424
+Stack trace:
+#0 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(424): yii\base\ErrorHandler->handleError()
+#1 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(248): app\controllers\GestioneNotiziaController->analisi()
+#2 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#3 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#4 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#5 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#6 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#7 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#8 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#9 {main}
+2023-06-17 10:06:07 [::1][-][ffime6j5p2a2ihjec806i9oijo][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '17.8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"PuJCbxMugTP1utEwjjEYUCnMpyZztXYb\";}'
+    'PHPSESSID' => 'ffime6j5p2a2ihjec806i9oijo'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'isLoggedIn' => true
+    '__authKey' => null
+    'notizia' => 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55247'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=17.8'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=17.8'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PuJCbxMugTP1utEwjjEYUCnMpyZztXYb%22%3B%7D; PHPSESSID=ffime6j5p2a2ihjec806i9oijo'
+    'REQUEST_TIME_FLOAT' => 1686996367.6034
+    'REQUEST_TIME' => 1686996367
+]
+2023-06-17 10:10:44 [::1][-][ffime6j5p2a2ihjec806i9oijo][error][ArgumentCountError] ArgumentCountError: Too few arguments to function app\controllers\GestioneNotiziaController::analisi(), 0 passed in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php on line 248 and exactly 1 expected in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php:333
+Stack trace:
+#0 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(248): app\controllers\GestioneNotiziaController->analisi()
+#1 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#2 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#3 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#4 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#5 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#6 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#7 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2023-06-17 10:10:42 [::1][-][ffime6j5p2a2ihjec806i9oijo][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '17.8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"PuJCbxMugTP1utEwjjEYUCnMpyZztXYb\";}'
+    'PHPSESSID' => 'ffime6j5p2a2ihjec806i9oijo'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'isLoggedIn' => true
+    '__authKey' => null
+    'notizia' => 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55281'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=17.8'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=17.8'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PuJCbxMugTP1utEwjjEYUCnMpyZztXYb%22%3B%7D; PHPSESSID=ffime6j5p2a2ihjec806i9oijo'
+    'REQUEST_TIME_FLOAT' => 1686996642.508
+    'REQUEST_TIME' => 1686996642
+]
+2023-06-17 10:13:26 [::1][-][ffime6j5p2a2ihjec806i9oijo][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: controllo in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\web\Controller.php:202
+Stack trace:
+#0 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams()
+#1 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#2 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#3 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#4 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#5 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2023-06-17 10:13:26 [::1][-][ffime6j5p2a2ihjec806i9oijo][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '17.8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"PuJCbxMugTP1utEwjjEYUCnMpyZztXYb\";}'
+    'PHPSESSID' => 'ffime6j5p2a2ihjec806i9oijo'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'isLoggedIn' => true
+    '__authKey' => null
+    'notizia' => 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55320'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=17.8'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=17.8'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PuJCbxMugTP1utEwjjEYUCnMpyZztXYb%22%3B%7D; PHPSESSID=ffime6j5p2a2ihjec806i9oijo'
+    'REQUEST_TIME_FLOAT' => 1686996806.0535
+    'REQUEST_TIME' => 1686996806
+]
+2023-06-17 10:13:39 [::1][-][ffime6j5p2a2ihjec806i9oijo][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: controllo in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\web\Controller.php:202
+Stack trace:
+#0 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams()
+#1 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#2 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#3 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#4 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#5 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2023-06-17 10:13:39 [::1][-][ffime6j5p2a2ihjec806i9oijo][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '17.8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"PuJCbxMugTP1utEwjjEYUCnMpyZztXYb\";}'
+    'PHPSESSID' => 'ffime6j5p2a2ihjec806i9oijo'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'isLoggedIn' => true
+    '__authKey' => null
+    'notizia' => 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55334'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=17.8'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=17.8'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PuJCbxMugTP1utEwjjEYUCnMpyZztXYb%22%3B%7D; PHPSESSID=ffime6j5p2a2ihjec806i9oijo'
+    'REQUEST_TIME_FLOAT' => 1686996819.5678
+    'REQUEST_TIME' => 1686996819
+]
+2023-06-17 10:15:42 [::1][-][ffime6j5p2a2ihjec806i9oijo][error][ArgumentCountError] ArgumentCountError: Too few arguments to function app\controllers\GestioneNotiziaController::analisi(), 0 passed in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php on line 142 and exactly 1 expected in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php:148
+Stack trace:
+#0 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(142): app\controllers\GestioneNotiziaController->analisi()
+#1 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#2 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#3 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#4 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#5 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#6 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#7 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2023-06-17 10:15:40 [::1][-][ffime6j5p2a2ihjec806i9oijo][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '17.8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"PuJCbxMugTP1utEwjjEYUCnMpyZztXYb\";}'
+    'PHPSESSID' => 'ffime6j5p2a2ihjec806i9oijo'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'isLoggedIn' => true
+    '__authKey' => null
+    'notizia' => 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55351'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=17.8'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=17.8'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PuJCbxMugTP1utEwjjEYUCnMpyZztXYb%22%3B%7D; PHPSESSID=ffime6j5p2a2ihjec806i9oijo'
+    'REQUEST_TIME_FLOAT' => 1686996940.1533
+    'REQUEST_TIME' => 1686996940
+]
+2023-06-17 10:16:26 [::1][-][ffime6j5p2a2ihjec806i9oijo][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $controllo in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php:142
+Stack trace:
+#0 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(142): yii\base\ErrorHandler->handleError()
+#1 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#2 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#3 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#4 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#5 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#6 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#7 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2023-06-17 10:16:24 [::1][-][ffime6j5p2a2ihjec806i9oijo][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '17.8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"PuJCbxMugTP1utEwjjEYUCnMpyZztXYb\";}'
+    'PHPSESSID' => 'ffime6j5p2a2ihjec806i9oijo'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'isLoggedIn' => true
+    '__authKey' => null
+    'notizia' => 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55358'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=17.8'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=17.8'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PuJCbxMugTP1utEwjjEYUCnMpyZztXYb%22%3B%7D; PHPSESSID=ffime6j5p2a2ihjec806i9oijo'
+    'REQUEST_TIME_FLOAT' => 1686996984.7174
+    'REQUEST_TIME' => 1686996984
+]
+2023-06-17 10:17:16 [::1][-][ffime6j5p2a2ihjec806i9oijo][error][ArgumentCountError] ArgumentCountError: Too few arguments to function app\controllers\GestioneNotiziaController::analisi(), 0 passed in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php on line 142 and exactly 1 expected in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php:148
+Stack trace:
+#0 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(142): app\controllers\GestioneNotiziaController->analisi()
+#1 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#2 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#3 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#4 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#5 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#6 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#7 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2023-06-17 10:17:15 [::1][-][ffime6j5p2a2ihjec806i9oijo][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '17.8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"PuJCbxMugTP1utEwjjEYUCnMpyZztXYb\";}'
+    'PHPSESSID' => 'ffime6j5p2a2ihjec806i9oijo'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'isLoggedIn' => true
+    '__authKey' => null
+    'notizia' => 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55372'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=17.8'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=17.8'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PuJCbxMugTP1utEwjjEYUCnMpyZztXYb%22%3B%7D; PHPSESSID=ffime6j5p2a2ihjec806i9oijo'
+    'REQUEST_TIME_FLOAT' => 1686997035.7235
+    'REQUEST_TIME' => 1686997035
+]
+2023-06-17 10:19:36 [::1][-][ffime6j5p2a2ihjec806i9oijo][error][ArgumentCountError] ArgumentCountError: Too few arguments to function app\controllers\GestioneNotiziaController::analisi(), 0 passed in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php on line 142 and exactly 1 expected in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php:148
+Stack trace:
+#0 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(142): app\controllers\GestioneNotiziaController->analisi()
+#1 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#2 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#3 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#4 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#5 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#6 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#7 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2023-06-17 10:19:34 [::1][-][ffime6j5p2a2ihjec806i9oijo][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '17.8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"PuJCbxMugTP1utEwjjEYUCnMpyZztXYb\";}'
+    'PHPSESSID' => 'ffime6j5p2a2ihjec806i9oijo'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'isLoggedIn' => true
+    '__authKey' => null
+    'notizia' => 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55396'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=17.8'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=17.8'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PuJCbxMugTP1utEwjjEYUCnMpyZztXYb%22%3B%7D; PHPSESSID=ffime6j5p2a2ihjec806i9oijo'
+    'REQUEST_TIME_FLOAT' => 1686997174.6664
+    'REQUEST_TIME' => 1686997174
+]
+2023-06-17 10:22:56 [::1][-][ffime6j5p2a2ihjec806i9oijo][error][ArgumentCountError] ArgumentCountError: Too few arguments to function app\controllers\GestioneNotiziaController::analisi(), 0 passed in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php on line 142 and exactly 1 expected in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php:148
+Stack trace:
+#0 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(142): app\controllers\GestioneNotiziaController->analisi()
+#1 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#2 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#3 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#4 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#5 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#6 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#7 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2023-06-17 10:22:55 [::1][-][ffime6j5p2a2ihjec806i9oijo][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '17.8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"PuJCbxMugTP1utEwjjEYUCnMpyZztXYb\";}'
+    'PHPSESSID' => 'ffime6j5p2a2ihjec806i9oijo'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'isLoggedIn' => true
+    '__authKey' => null
+    'notizia' => 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55405'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=17.8'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=17.8'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PuJCbxMugTP1utEwjjEYUCnMpyZztXYb%22%3B%7D; PHPSESSID=ffime6j5p2a2ihjec806i9oijo'
+    'REQUEST_TIME_FLOAT' => 1686997375.5187
+    'REQUEST_TIME' => 1686997375
+]
+2023-06-17 10:24:25 [::1][-][ffime6j5p2a2ihjec806i9oijo][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: controllo in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\web\Controller.php:202
+Stack trace:
+#0 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams()
+#1 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#2 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#3 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#4 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#5 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2023-06-17 10:24:25 [::1][-][ffime6j5p2a2ihjec806i9oijo][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '17.8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"PuJCbxMugTP1utEwjjEYUCnMpyZztXYb\";}'
+    'PHPSESSID' => 'ffime6j5p2a2ihjec806i9oijo'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'isLoggedIn' => true
+    '__authKey' => null
+    'notizia' => 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55419'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=17.8'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=17.8'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PuJCbxMugTP1utEwjjEYUCnMpyZztXYb%22%3B%7D; PHPSESSID=ffime6j5p2a2ihjec806i9oijo'
+    'REQUEST_TIME_FLOAT' => 1686997465.694
+    'REQUEST_TIME' => 1686997465
+]
+2023-06-17 10:29:38 [::1][-][ffime6j5p2a2ihjec806i9oijo][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $controllo in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php:147
+Stack trace:
+#0 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(147): yii\base\ErrorHandler->handleError()
+#1 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#2 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#3 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#4 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#5 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#6 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#7 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2023-06-17 10:29:37 [::1][-][ffime6j5p2a2ihjec806i9oijo][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '17.8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"PuJCbxMugTP1utEwjjEYUCnMpyZztXYb\";}'
+    'PHPSESSID' => 'ffime6j5p2a2ihjec806i9oijo'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'isLoggedIn' => true
+    '__authKey' => null
+    'notizia' => 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55451'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=17.8'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=17.8'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PuJCbxMugTP1utEwjjEYUCnMpyZztXYb%22%3B%7D; PHPSESSID=ffime6j5p2a2ihjec806i9oijo'
+    'REQUEST_TIME_FLOAT' => 1686997777.3741
+    'REQUEST_TIME' => 1686997777
+]
+2023-06-17 10:30:22 [::1][-][ffime6j5p2a2ihjec806i9oijo][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined array key -1 in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php:162
+Stack trace:
+#0 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(162): yii\base\ErrorHandler->handleError()
+#1 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(147): app\controllers\GestioneNotiziaController->analisi()
+#2 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#3 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#4 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#5 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#6 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#7 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#8 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#9 {main}
+2023-06-17 10:30:21 [::1][-][ffime6j5p2a2ihjec806i9oijo][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '17.8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"PuJCbxMugTP1utEwjjEYUCnMpyZztXYb\";}'
+    'PHPSESSID' => 'ffime6j5p2a2ihjec806i9oijo'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'isLoggedIn' => true
+    '__authKey' => null
+    'notizia' => 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55462'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=17.8'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=17.8'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PuJCbxMugTP1utEwjjEYUCnMpyZztXYb%22%3B%7D; PHPSESSID=ffime6j5p2a2ihjec806i9oijo'
+    'REQUEST_TIME_FLOAT' => 1686997821.4099
+    'REQUEST_TIME' => 1686997821
+]
+2023-06-17 10:31:40 [::1][-][ffime6j5p2a2ihjec806i9oijo][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined array key -1 in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php:162
+Stack trace:
+#0 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(162): yii\base\ErrorHandler->handleError()
+#1 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(147): app\controllers\GestioneNotiziaController->analisi()
+#2 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#3 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#4 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#5 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#6 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#7 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#8 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#9 {main}
+2023-06-17 10:31:39 [::1][-][ffime6j5p2a2ihjec806i9oijo][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '17.8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"PuJCbxMugTP1utEwjjEYUCnMpyZztXYb\";}'
+    'PHPSESSID' => 'ffime6j5p2a2ihjec806i9oijo'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'isLoggedIn' => true
+    '__authKey' => null
+    'notizia' => 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55472'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=17.8'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=17.8'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PuJCbxMugTP1utEwjjEYUCnMpyZztXYb%22%3B%7D; PHPSESSID=ffime6j5p2a2ihjec806i9oijo'
+    'REQUEST_TIME_FLOAT' => 1686997899.4634
+    'REQUEST_TIME' => 1686997899
+]
+2023-06-17 10:31:44 [::1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined array key -1 in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php:162
+Stack trace:
+#0 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(162): yii\base\ErrorHandler->handleError()
+#1 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(147): app\controllers\GestioneNotiziaController->analisi()
+#2 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#3 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#4 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#5 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#6 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#7 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#8 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#9 {main}
+2023-06-17 10:31:43 [::1][-][-][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '17.8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"PuJCbxMugTP1utEwjjEYUCnMpyZztXYb\";}'
+    'PHPSESSID' => 'ffime6j5p2a2ihjec806i9oijo'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'isLoggedIn' => true
+    '__authKey' => null
+    'notizia' => 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55476'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=17.8'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=17.8'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PuJCbxMugTP1utEwjjEYUCnMpyZztXYb%22%3B%7D; PHPSESSID=ffime6j5p2a2ihjec806i9oijo'
+    'REQUEST_TIME_FLOAT' => 1686997903.0074
+    'REQUEST_TIME' => 1686997903
+]
+2023-06-17 10:31:45 [::1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined array key -1 in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php:162
+Stack trace:
+#0 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(162): yii\base\ErrorHandler->handleError()
+#1 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(147): app\controllers\GestioneNotiziaController->analisi()
+#2 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#3 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#4 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#5 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#6 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#7 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#8 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#9 {main}
+2023-06-17 10:31:44 [::1][-][-][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '17.8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"PuJCbxMugTP1utEwjjEYUCnMpyZztXYb\";}'
+    'PHPSESSID' => 'ffime6j5p2a2ihjec806i9oijo'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'isLoggedIn' => true
+    '__authKey' => null
+    'notizia' => 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55477'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=17.8'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=17.8'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PuJCbxMugTP1utEwjjEYUCnMpyZztXYb%22%3B%7D; PHPSESSID=ffime6j5p2a2ihjec806i9oijo'
+    'REQUEST_TIME_FLOAT' => 1686997904.2061
+    'REQUEST_TIME' => 1686997904
+]
+2023-06-17 10:32:01 [::1][-][ffime6j5p2a2ihjec806i9oijo][error][yii\base\ErrorException:2] yii\base\ErrorException: Trying to access array offset on value of type int in C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php:26
+Stack trace:
+#0 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\controllers\GestioneNotiziaController.php(26): yii\base\ErrorHandler->handleError()
+#1 [internal function]: app\controllers\GestioneNotiziaController->actionInserimento()
+#2 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#3 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#4 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#5 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#6 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#7 C:\Users\maria\OneDrive\Desktop\Misinformation\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2023-06-17 10:32:00 [::1][-][ffime6j5p2a2ihjec806i9oijo][info][application] $_GET = [
+    'r' => 'gestione-notizia/inserimento'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"PuJCbxMugTP1utEwjjEYUCnMpyZztXYb\";}'
+    'PHPSESSID' => 'ffime6j5p2a2ihjec806i9oijo'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'isLoggedIn' => true
+    '__authKey' => null
+    'notizia' => 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55527'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Finserimento'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\maria\\OneDrive\\Desktop\\Misinformation\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Finserimento'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_csrf=8b56d8ef563c2a7488c9e671a420dff7615b326c637611d73f4e19be79902dcda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22PuJCbxMugTP1utEwjjEYUCnMpyZztXYb%22%3B%7D; PHPSESSID=ffime6j5p2a2ihjec806i9oijo'
+    'REQUEST_TIME_FLOAT' => 1686997920.5565
+    'REQUEST_TIME' => 1686997920
+]
