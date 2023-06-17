@@ -4,7 +4,7 @@ use yii\controller\FonteController;
 ?>
 
 <div class='notizia'>
-<h1>gestione-notizia/inserimento</h1>
+<h1>Analisi della notizia</h1>
 
 <div>
     <?php
@@ -46,7 +46,7 @@ use yii\controller\FonteController;
     <p>
         Il link inserito � <?= $risultato?>
         ed ha indice <?= $indice?>
-        perciò <?= $messaggio?>
+        
         
     </p>
 </div>

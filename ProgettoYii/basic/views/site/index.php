@@ -26,14 +26,7 @@ $this->title = 'G1rl P0wer';
         <?= Html::submitButton('Segnala notizia', ['name'=>'segnala', 'class'=>'verifica']) ?>
         <?php ActiveForm::end(); ?>
 
-        $form = ActiveForm::begin();
-
-        // Altri campi del form
-
-        echo Html::submitButton('Bottone 1', ['name' => 'segnala', 'value' => 'b1', 'class' => 'btn btn-primary']);
-        echo Html::submitButton('Bottone 2', ['name' => 'segnala', 'value' => 'b2', 'class' => 'btn btn-primary']);
-
-        ActiveForm::end();
+        
     </div>
 
     

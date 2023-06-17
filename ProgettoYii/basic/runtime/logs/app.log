@@ -28465,3 +28465,1976 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1686991747.9989
     'REQUEST_TIME' => 1686991747
 ]
+2023-06-17 09:19:54 [::1][-][01qu6hgnb879ohopgkkkrn20e9][error][ParseError] ParseError: syntax error, unexpected token "<<" in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\SiteController.php:75
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload()
+#1 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(661): class_exists()
+#2 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID()
+#3 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController()
+#4 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#5 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#6 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2023-06-17 09:19:54 [::1][-][01qu6hgnb879ohopgkkkrn20e9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '65445'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=gestione-notizia%2Fanalisi&indice=17.8&soggetti=null'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1686993594.3159
+    'REQUEST_TIME' => 1686993594
+]
+2023-06-17 09:20:56 [::1][-][01qu6hgnb879ohopgkkkrn20e9][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $messaggio in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\views\gestione-notizia\analisi.php:49
+Stack trace:
+#0 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\views\gestione-notizia\analisi.php(49): yii\base\ErrorHandler->handleError()
+#1 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(347): require('...')
+#2 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#3 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#4 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#5 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php(201): yii\base\Controller->render()
+#6 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#7 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#8 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#10 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#11 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#12 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2023-06-17 09:20:54 [::1][-][01qu6hgnb879ohopgkkkrn20e9][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '17.8'
+    'soggetti' => 'null'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '65486'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=17.8&soggetti=null'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=17.8&soggetti=null'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1686993654.1468
+    'REQUEST_TIME' => 1686993654
+]
+2023-06-17 09:21:06 [::1][-][01qu6hgnb879ohopgkkkrn20e9][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $messaggio in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\views\gestione-notizia\analisi.php:49
+Stack trace:
+#0 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\views\gestione-notizia\analisi.php(49): yii\base\ErrorHandler->handleError()
+#1 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(347): require('...')
+#2 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#3 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#4 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#5 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php(201): yii\base\Controller->render()
+#6 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#7 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#8 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#10 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#11 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#12 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2023-06-17 09:21:04 [::1][-][01qu6hgnb879ohopgkkkrn20e9][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '17.8'
+    'soggetti' => 'null'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '65505'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=17.8&soggetti=null'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=17.8&soggetti=null'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1686993664.3356
+    'REQUEST_TIME' => 1686993664
+]
+2023-06-17 10:03:39 [::1][-][01qu6hgnb879ohopgkkkrn20e9][error][yii\base\ErrorException:64] yii\base\ErrorException: Cannot use GuzzleHttp\Client as Client because the name is already in use in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php:17
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2023-06-17 10:03:39 [::1][-][01qu6hgnb879ohopgkkkrn20e9][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '17.8'
+    'soggetti' => 'null'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51103'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=17.8&soggetti=null'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=17.8&soggetti=null'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1686996219.3539
+    'REQUEST_TIME' => 1686996219
+]
+2023-06-17 10:03:49 [::1][-][01qu6hgnb879ohopgkkkrn20e9][error][yii\base\ErrorException:64] yii\base\ErrorException: Cannot use GuzzleHttp\Client as Client because the name is already in use in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php:17
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2023-06-17 10:03:49 [::1][-][01qu6hgnb879ohopgkkkrn20e9][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '17.8'
+    'soggetti' => 'null'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51105'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=17.8&soggetti=null'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=17.8&soggetti=null'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1686996229.6265
+    'REQUEST_TIME' => 1686996229
+]
+2023-06-17 10:03:50 [::1][-][01qu6hgnb879ohopgkkkrn20e9][error][yii\base\ErrorException:64] yii\base\ErrorException: Cannot use GuzzleHttp\Client as Client because the name is already in use in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php:17
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2023-06-17 10:03:50 [::1][-][01qu6hgnb879ohopgkkkrn20e9][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '17.8'
+    'soggetti' => 'null'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51107'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=17.8&soggetti=null'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=17.8&soggetti=null'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1686996230.6339
+    'REQUEST_TIME' => 1686996230
+]
+2023-06-17 10:15:43 [::1][-][01qu6hgnb879ohopgkkkrn20e9][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: soggetti in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Controller.php:202
+Stack trace:
+#0 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams()
+#1 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#2 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#3 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#4 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#5 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2023-06-17 10:15:43 [::1][-][01qu6hgnb879ohopgkkkrn20e9][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '50'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://it.wikipedia.org/wiki/Gabibbo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51260'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=50'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=50'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1686996943.8684
+    'REQUEST_TIME' => 1686996943
+]
+2023-06-17 10:16:44 [::1][-][01qu6hgnb879ohopgkkkrn20e9][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: soggetti in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Controller.php:202
+Stack trace:
+#0 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams()
+#1 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#2 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#3 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#4 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#5 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2023-06-17 10:16:44 [::1][-][01qu6hgnb879ohopgkkkrn20e9][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '50'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://it.wikipedia.org/wiki/Gabibbo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51281'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=50'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=50'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1686997004.6385
+    'REQUEST_TIME' => 1686997004
+]
+2023-06-17 10:16:46 [::1][-][01qu6hgnb879ohopgkkkrn20e9][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: soggetti in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Controller.php:202
+Stack trace:
+#0 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams()
+#1 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#2 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#3 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#4 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#5 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#6 {main}
+2023-06-17 10:16:46 [::1][-][01qu6hgnb879ohopgkkkrn20e9][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '50'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://it.wikipedia.org/wiki/Gabibbo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51290'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=50'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=50'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1686997006.0992
+    'REQUEST_TIME' => 1686997006
+]
+2023-06-17 10:17:21 [::1][-][01qu6hgnb879ohopgkkkrn20e9][error][GuzzleHttp\Exception\RequestException] GuzzleHttp\Exception\RequestException: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.meaningcloud.com/topics-2.0 in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:211
+Stack trace:
+#0 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(158): GuzzleHttp\Handler\CurlFactory::createRejection()
+#1 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(110): GuzzleHttp\Handler\CurlFactory::finishError()
+#2 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(47): GuzzleHttp\Handler\CurlFactory::finish()
+#3 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke()
+#4 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(48): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+#5 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(64): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+#6 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\Middleware.php(31): GuzzleHttp\PrepareBodyMiddleware->__invoke()
+#7 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(71): GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+#8 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\Middleware.php(66): GuzzleHttp\RedirectMiddleware->__invoke()
+#9 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\HandlerStack.php(75): GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+#10 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\Client.php(333): GuzzleHttp\HandlerStack->__invoke()
+#11 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\Client.php(169): GuzzleHttp\Client->transfer()
+#12 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\Client.php(189): GuzzleHttp\Client->requestAsync()
+#13 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\ClientTrait.php(95): GuzzleHttp\Client->request()
+#14 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php(220): GuzzleHttp\Client->post()
+#15 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php(202): app\controllers\GestioneNotiziaController->ricercaSoggetti()
+#16 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#17 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#18 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#19 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#20 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#21 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#22 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#23 {main}
+2023-06-17 10:17:18 [::1][-][01qu6hgnb879ohopgkkkrn20e9][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '50'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://it.wikipedia.org/wiki/Gabibbo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51304'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=50'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=50'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1686997038.8889
+    'REQUEST_TIME' => 1686997038
+]
+2023-06-17 10:18:38 [::1][-][01qu6hgnb879ohopgkkkrn20e9][error][yii\base\ErrorException:2] yii\base\ErrorException: require(vendor/autoload.php): Failed to open stream: No such file or directory in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php:19
+Stack trace:
+#0 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php(19): yii\base\ErrorHandler->handleError()
+#1 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php(19): require()
+#2 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\BaseYii.php(293): include('...')
+#3 [internal function]: yii\BaseYii::autoload()
+#4 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(661): class_exists()
+#5 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID()
+#6 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController()
+#7 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#8 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#9 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2023-06-17 10:18:38 [::1][-][01qu6hgnb879ohopgkkkrn20e9][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '50'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://it.wikipedia.org/wiki/Gabibbo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51333'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=50'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=50'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1686997118.847
+    'REQUEST_TIME' => 1686997118
+]
+2023-06-17 10:18:45 [::1][-][01qu6hgnb879ohopgkkkrn20e9][error][yii\base\ErrorException:2] yii\base\ErrorException: require(vendor/autoload.php): Failed to open stream: No such file or directory in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php:19
+Stack trace:
+#0 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php(19): yii\base\ErrorHandler->handleError()
+#1 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php(19): require()
+#2 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\BaseYii.php(293): include('...')
+#3 [internal function]: yii\BaseYii::autoload()
+#4 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(661): class_exists()
+#5 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID()
+#6 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController()
+#7 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#8 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#9 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2023-06-17 10:18:45 [::1][-][01qu6hgnb879ohopgkkkrn20e9][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '50'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://it.wikipedia.org/wiki/Gabibbo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51336'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=50'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=50'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1686997125.8268
+    'REQUEST_TIME' => 1686997125
+]
+2023-06-17 10:18:46 [::1][-][01qu6hgnb879ohopgkkkrn20e9][error][yii\base\ErrorException:2] yii\base\ErrorException: require(vendor/autoload.php): Failed to open stream: No such file or directory in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php:19
+Stack trace:
+#0 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php(19): yii\base\ErrorHandler->handleError()
+#1 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php(19): require()
+#2 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\BaseYii.php(293): include('...')
+#3 [internal function]: yii\BaseYii::autoload()
+#4 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(661): class_exists()
+#5 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID()
+#6 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController()
+#7 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#8 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#9 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2023-06-17 10:18:46 [::1][-][01qu6hgnb879ohopgkkkrn20e9][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '50'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://it.wikipedia.org/wiki/Gabibbo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51338'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=50'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=50'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1686997126.6894
+    'REQUEST_TIME' => 1686997126
+]
+2023-06-17 10:20:35 [::1][-][01qu6hgnb879ohopgkkkrn20e9][error][GuzzleHttp\Exception\RequestException] GuzzleHttp\Exception\RequestException: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.meaningcloud.com/topics-2.0 in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:211
+Stack trace:
+#0 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(158): GuzzleHttp\Handler\CurlFactory::createRejection()
+#1 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(110): GuzzleHttp\Handler\CurlFactory::finishError()
+#2 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(47): GuzzleHttp\Handler\CurlFactory::finish()
+#3 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke()
+#4 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(48): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+#5 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(64): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+#6 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\Middleware.php(31): GuzzleHttp\PrepareBodyMiddleware->__invoke()
+#7 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(71): GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+#8 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\Middleware.php(66): GuzzleHttp\RedirectMiddleware->__invoke()
+#9 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\HandlerStack.php(75): GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+#10 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\Client.php(333): GuzzleHttp\HandlerStack->__invoke()
+#11 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\Client.php(169): GuzzleHttp\Client->transfer()
+#12 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\Client.php(189): GuzzleHttp\Client->requestAsync()
+#13 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\guzzlehttp\guzzle\src\ClientTrait.php(95): GuzzleHttp\Client->request()
+#14 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php(222): GuzzleHttp\Client->post()
+#15 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php(204): app\controllers\GestioneNotiziaController->ricercaSoggetti()
+#16 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#17 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#18 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#19 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#20 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#21 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#22 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#23 {main}
+2023-06-17 10:20:32 [::1][-][01qu6hgnb879ohopgkkkrn20e9][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '50'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://it.wikipedia.org/wiki/Gabibbo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51351'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=50'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=50'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1686997232.5431
+    'REQUEST_TIME' => 1686997232
+]
+2023-06-17 10:21:52 [::1][-][-][error][yii\web\HeadersAlreadySentException] yii\web\HeadersAlreadySentException: Headers already sent in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php on line 206. in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Response.php:368
+Stack trace:
+#0 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Response.php(341): yii\web\Response->sendHeaders()
+#1 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(390): yii\web\Response->send()
+#2 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-06-17 10:21:47 [::1][-][-][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '50'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://it.wikipedia.org/wiki/Gabibbo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51375'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=50'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=50'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1686997307.5004
+    'REQUEST_TIME' => 1686997307
+]
+2023-06-17 10:59:39 [::1][-][-][error][yii\web\HeadersAlreadySentException] yii\web\HeadersAlreadySentException: Headers already sent in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php on line 203. in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Response.php:368
+Stack trace:
+#0 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Response.php(341): yii\web\Response->sendHeaders()
+#1 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(390): yii\web\Response->send()
+#2 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-06-17 10:59:34 [::1][-][-][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '50'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://it.wikipedia.org/wiki/Gabibbo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51833'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=50'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=50'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1686999574.486
+    'REQUEST_TIME' => 1686999574
+]
+2023-06-17 11:00:00 [::1][-][-][error][yii\web\HeadersAlreadySentException] yii\web\HeadersAlreadySentException: Headers already sent in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php on line 203. in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Response.php:368
+Stack trace:
+#0 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Response.php(341): yii\web\Response->sendHeaders()
+#1 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(390): yii\web\Response->send()
+#2 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-06-17 10:59:58 [::1][-][-][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '50'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://tg24.sky.it/mondo/2023/06/16/berlusconi-putin-minuto-silenzio-san-pietroburgo-video'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51868'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=50'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=50'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1686999598.2327
+    'REQUEST_TIME' => 1686999598
+]
+2023-06-17 13:09:09 [::1][-][-][error][yii\web\HeadersAlreadySentException] yii\web\HeadersAlreadySentException: Headers already sent in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php on line 198. in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Response.php:368
+Stack trace:
+#0 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Response.php(341): yii\web\Response->sendHeaders()
+#1 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(390): yii\web\Response->send()
+#2 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2023-06-17 13:09:06 [::1][-][-][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '50'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://facta.news/antibufale/2023/06/13/rtl-berlusconi-annalisa/'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '53545'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=50'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=50'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1687007346.7707
+    'REQUEST_TIME' => 1687007346
+]
+2023-06-17 13:14:27 [::1][-][01qu6hgnb879ohopgkkkrn20e9][error][yii\base\ErrorException:2] yii\base\ErrorException: Array to string conversion in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php:201
+Stack trace:
+#0 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php(201): yii\base\ErrorHandler->handleError()
+#1 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#2 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#3 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#4 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#5 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#6 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#7 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2023-06-17 13:14:25 [::1][-][01qu6hgnb879ohopgkkkrn20e9][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '50'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://tg24.sky.it/mondo/2023/06/16/berlusconi-putin-minuto-silenzio-san-pietroburgo-video'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '53733'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=50'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=50'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1687007665.5948
+    'REQUEST_TIME' => 1687007665
+]
+2023-06-17 13:15:02 [::1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined array key "claims" in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\views\gestione-notizia\analisi.php:22
+Stack trace:
+#0 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\views\gestione-notizia\analisi.php(22): yii\base\ErrorHandler->handleError()
+#1 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(347): require('...')
+#2 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#3 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#4 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#5 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php(212): yii\base\Controller->render()
+#6 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#7 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#8 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#10 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#11 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#12 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2023-06-17 13:14:59 [::1][-][-][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '50'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://tg24.sky.it/mondo/2023/06/16/berlusconi-putin-minuto-silenzio-san-pietroburgo-video'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '53746'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=50'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=50'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1687007699.7263
+    'REQUEST_TIME' => 1687007699
+]
+2023-06-17 13:16:08 [::1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined array key "claims" in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\views\gestione-notizia\analisi.php:22
+Stack trace:
+#0 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\views\gestione-notizia\analisi.php(22): yii\base\ErrorHandler->handleError()
+#1 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(347): require('...')
+#2 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#3 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#4 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#5 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php(212): yii\base\Controller->render()
+#6 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#7 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#8 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#10 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#11 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#12 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2023-06-17 13:16:04 [::1][-][-][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '50'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://it.wikipedia.org/wiki/Gabibbo'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '53800'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=50'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=50'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1687007764.1823
+    'REQUEST_TIME' => 1687007764
+]
+2023-06-17 13:20:34 [::1][-][01qu6hgnb879ohopgkkkrn20e9][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined array key "country" in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php:200
+Stack trace:
+#0 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php(200): yii\base\ErrorHandler->handleError()
+#1 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#2 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#3 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#4 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#5 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#6 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#7 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2023-06-17 13:20:32 [::1][-][01qu6hgnb879ohopgkkkrn20e9][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '50'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://facta.news/antibufale/2023/06/13/rtl-berlusconi-annalisa/'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '53865'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=50'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=50'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1687008032.1611
+    'REQUEST_TIME' => 1687008032
+]
+2023-06-17 13:21:07 [::1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined array key "claims" in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\views\gestione-notizia\analisi.php:22
+Stack trace:
+#0 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\views\gestione-notizia\analisi.php(22): yii\base\ErrorHandler->handleError()
+#1 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(347): require('...')
+#2 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#3 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#4 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#5 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php(212): yii\base\Controller->render()
+#6 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#7 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#8 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#10 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#11 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#12 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2023-06-17 13:21:05 [::1][-][-][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '50'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://tg24.sky.it/mondo/2023/06/16/berlusconi-putin-minuto-silenzio-san-pietroburgo-video'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '53898'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=50'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=50'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1687008065.3607
+    'REQUEST_TIME' => 1687008065
+]
+2023-06-17 13:22:21 [::1][-][01qu6hgnb879ohopgkkkrn20e9][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined array key "claims" in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\views\gestione-notizia\analisi.php:22
+Stack trace:
+#0 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\views\gestione-notizia\analisi.php(22): yii\base\ErrorHandler->handleError()
+#1 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(347): require('...')
+#2 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#3 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#4 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#5 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php(212): yii\base\Controller->render()
+#6 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#7 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#8 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#10 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#11 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#12 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2023-06-17 13:22:19 [::1][-][01qu6hgnb879ohopgkkkrn20e9][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '50'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://facta.news/antibufale/2023/06/13/rtl-berlusconi-annalisa/'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '53943'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=50'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=50'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1687008139.6356
+    'REQUEST_TIME' => 1687008139
+]
+2023-06-17 13:22:49 [::1][-][01qu6hgnb879ohopgkkkrn20e9][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined array key "claims" in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\views\gestione-notizia\analisi.php:22
+Stack trace:
+#0 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\views\gestione-notizia\analisi.php(22): yii\base\ErrorHandler->handleError()
+#1 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(347): require('...')
+#2 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#3 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#4 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#5 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php(212): yii\base\Controller->render()
+#6 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#7 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#8 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#9 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#10 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#11 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#12 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2023-06-17 13:22:47 [::1][-][01qu6hgnb879ohopgkkkrn20e9][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '50'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://tg24.sky.it/mondo/2023/06/16/berlusconi-putin-minuto-silenzio-san-pietroburgo-video'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '53970'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=50'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=50'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1687008167.1131
+    'REQUEST_TIME' => 1687008167
+]
+2023-06-17 13:23:40 [::1][-][01qu6hgnb879ohopgkkkrn20e9][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined array key "entity_list" in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php:199
+Stack trace:
+#0 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php(199): yii\base\ErrorHandler->handleError()
+#1 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#2 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#3 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#4 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#5 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#6 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#7 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2023-06-17 13:23:38 [::1][-][01qu6hgnb879ohopgkkkrn20e9][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '50'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://tg24.sky.it/mondo/2023/06/16/berlusconi-putin-minuto-silenzio-san-pietroburgo-video'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54003'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=50'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=50'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1687008218.8031
+    'REQUEST_TIME' => 1687008218
+]
+2023-06-17 13:24:15 [::1][-][01qu6hgnb879ohopgkkkrn20e9][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined array key "entity_list" in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php:199
+Stack trace:
+#0 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php(199): yii\base\ErrorHandler->handleError()
+#1 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#2 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#3 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#4 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#5 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#6 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#7 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2023-06-17 13:24:14 [::1][-][01qu6hgnb879ohopgkkkrn20e9][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '50'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://tg24.sky.it/mondo/2023/06/16/berlusconi-putin-minuto-silenzio-san-pietroburgo-video'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54021'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=50'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=50'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1687008254.1119
+    'REQUEST_TIME' => 1687008254
+]
+2023-06-17 13:24:19 [::1][-][01qu6hgnb879ohopgkkkrn20e9][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined array key "entity_list" in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php:199
+Stack trace:
+#0 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php(199): yii\base\ErrorHandler->handleError()
+#1 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#2 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#3 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#4 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#5 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#6 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#7 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2023-06-17 13:24:18 [::1][-][01qu6hgnb879ohopgkkkrn20e9][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '50'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://tg24.sky.it/mondo/2023/06/16/berlusconi-putin-minuto-silenzio-san-pietroburgo-video'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54028'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=50'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=50'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1687008258.6209
+    'REQUEST_TIME' => 1687008258
+]
+2023-06-17 13:25:48 [::1][-][01qu6hgnb879ohopgkkkrn20e9][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined array key "entity_list" in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php:199
+Stack trace:
+#0 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php(199): yii\base\ErrorHandler->handleError()
+#1 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#2 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#3 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#4 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#5 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#6 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#7 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2023-06-17 13:25:47 [::1][-][01qu6hgnb879ohopgkkkrn20e9][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '50'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://tg24.sky.it/mondo/2023/06/16/berlusconi-putin-minuto-silenzio-san-pietroburgo-video'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54053'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=50'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=50'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1687008347.0621
+    'REQUEST_TIME' => 1687008347
+]
+2023-06-17 13:26:06 [::1][-][01qu6hgnb879ohopgkkkrn20e9][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined array key "entity_list" in C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php:199
+Stack trace:
+#0 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\controllers\GestioneNotiziaController.php(199): yii\base\ErrorHandler->handleError()
+#1 [internal function]: app\controllers\GestioneNotiziaController->actionAnalisi()
+#2 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#3 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#4 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#5 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#6 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#7 C:\Users\pinto\Desktop\PROGETTO_G1rlP0wer_Github\ProgettoYii\basic\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2023-06-17 13:26:04 [::1][-][01qu6hgnb879ohopgkkkrn20e9][info][application] $_GET = [
+    'r' => 'gestione-notizia/analisi'
+    'indice' => '50'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Studio-5dce4d9c' => '27af451d-5efb-4ea9-ab8a-ab3c21393c10'
+    'PHPSESSID' => '01qu6hgnb879ohopgkkkrn20e9'
+    '_csrf' => 'efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'notizia' => 'https://tg24.sky.it/mondo/2023/06/16/berlusconi-putin-minuto-silenzio-san-pietroburgo-video'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54068'
+    'SERVER_SOFTWARE' => 'PHP 8.1.19 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gestione-notizia%2Fanalisi&indice=50'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\pinto\\Desktop\\PROGETTO_G1rlP0wer_Github\\ProgettoYii\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gestione-notizia%2Fanalisi&indice=50'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,it;q=0.8'
+    'HTTP_COOKIE' => 'Studio-5dce4d9c=27af451d-5efb-4ea9-ab8a-ab3c21393c10; PHPSESSID=01qu6hgnb879ohopgkkkrn20e9; _csrf=efdb5aaa9773f11f726301345093dd7462aaba9c61fd68c0265efca2e4ec6755a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KVssWW0kKiAxD8LDFd1z-Qa4f4ZCeZpH%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1687008364.4665
+    'REQUEST_TIME' => 1687008364
+]

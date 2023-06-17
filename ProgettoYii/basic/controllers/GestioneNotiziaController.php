@@ -10,10 +10,14 @@ use yii\web\Response;
 use yii\filters\VerbFilter;
 use app\models\Notizia;
 use app\models\Immagine;
+use app\models\Testo;
 use app\models\Fonte;
 use yii\httpclient\Client;
 use yii\helpers\Url;
 use yii\controllers\FonteController;
+use GuzzleHttp\Client as GuzzleClient;
+
+require __DIR__ . '/../vendor/autoload.php';
 
 class GestioneNotiziaController extends Controller
 {
@@ -21,14 +25,10 @@ class GestioneNotiziaController extends Controller
     {
         $link_notizia=Yii::$app->session->get('notizia');
 
-        if (stripos($link_notizia, "https") !== false) {
-             $categoria=$this->categoria();
-             echo 'ciao';
-         }        
-        
-        //$dataCategoria=json_decode($categoria, true);
-
-        echo 'ciao';
+        if (stripos($link_notizia, "http") !== false && stripos(substr($link_notizia, -7), ".") !== false) 
+        {
+            $categoria=$this->categoria();
+        }        
 
         if(!empty($categoria))
         {
@@ -68,11 +68,11 @@ class GestioneNotiziaController extends Controller
                 $soggetti=$this->ricercaSoggetti();
                 
                 $immagine=new Immagine();
-                $immagine->metadati=$metaDati;
+                $immagine->setMetadati($metaDati);
             }
 
             
-            $redirectUrl = Url::to(['gestione-notizia/analisi', 'indice' => $indice, 'soggetti' => $soggetti]);
+            $redirectUrl = Url::to(['gestione-notizia/analisi', 'indice' => $indice]);
 
             if ($notizia->save()) {
                 return $this->redirect($redirectUrl);
@@ -92,6 +92,7 @@ class GestioneNotiziaController extends Controller
         return $this->render('inserimento');
     }
 
+    //DA TESTARE
     public function analisiNotizia($url)
     {
 
@@ -156,10 +157,10 @@ class GestioneNotiziaController extends Controller
             echo "Errore nella richiesta di ottenimento delle informazioni dell'URL.";
         }
 
-         return $responseData;
+        return $responseData;
     }
 
-    public function actionAnalisi($indice, $soggetti)
+    public function actionAnalisi($indice)
     {
         $link_notizia=Yii::$app->session->get('notizia');
 
@@ -188,100 +189,81 @@ class GestioneNotiziaController extends Controller
          }
 
 
-         if (stripos($link_notizia, "https") !== false) {
-            $categoria=$this->categoria($link_notizia);
-            // Creazione dell'istanza del controller di destinazione
-            $controller = Yii::$app->createController('fonte')[0];
+        if (stripos($link_notizia, "http") !== false) 
+        {
+            if(stripos(substr($link_notizia, -7), ".") !== false)
+                $categoria=$this->categoria($link_notizia);
 
-            // Chiamata alla funzione desiderata del controller di destinazione
-            $controller->actionAnalisiFonte();
-         }         
+            $soggetti=$this->ricercaSoggetti();
 
+            $dataSoggetti=json_decode($soggetti, true);
+            $entity=$dataSoggetti['entity_list'];
 
-         return $this->render('analisi', ['jsonData' => json_encode($data), 'indice' => json_encode($indice)]);
+            $primo=$entity['0'];
+            $secondo=$entity['1'];
+            $terzo=$entity['2'];
+            $quinto=$entity['5'];
+
+            $principale=$primo['form'];
+            $secondario1=$secondo['form'];
+            $secondario2=$terzo['form'];
+            $luogo=$quinto['form'];
+
+            $sogg=array($principale, $secondario1, $secondario2, $luogo);
+
+            $soggetti=json_encode($sogg);
+
+            $tempo=$dataSoggetti['time_expression_list'];
+            $primo=$tempo['0'];
+            $data=$primo['actual_time'];
+
+            $data=json_encode($data);
+
+            $testo=new Testo();
+            $testo->setSoggetti($soggetti);
+            $testo->setData($data);
+
+        }         
+
+        // Creazione dell'istanza del controller di destinazione
+        $controller = Yii::$app->createController('fonte')[0];
+
+        // Chiamata alla funzione desiderata del controller di destinazione
+        $controller->actionAnalisiFonte();
+
+        return $this->render('analisi', ['jsonData' => json_encode($data), 'indice' => json_encode($indice)]);
     }
 
     public function ricercaSoggetti()
     {
         $link_notizia=Yii::$app->session->get('notizia');
 
-        //$image_url = 'https://docs.imagga.com/static/images/docs/sample/japan-605234_1280.jpg';
-        $api_credentials = array(
-        'key' => 'acc_21314e94b826ef7',
-        'secret' => 'b959fa4c880b462a844ba43daa8e09e9'
-        );
+        $client = new GuzzleClient();
 
-        $ch = curl_init();
-
-        curl_setopt($ch, CURLOPT_URL, 'https://api.imagga.com/v2/tags?image_url='.$link_notizia);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
-        curl_setopt($ch, CURLOPT_HEADER, FALSE);
-        curl_setopt($ch, CURLOPT_USERPWD, $api_credentials['key'].':'.$api_credentials['secret']);
-
-        $response = curl_exec($ch);
-        curl_close($ch);
-
-        $json_response = json_decode($response);
-        //var_dump($json_response);
-        $soggetti=json_encode($json_response);
-        
-
-        /*$client = new Client();
-
-        // URL dell'API di Google Cloud Vision
-        $url = 'https://vision.googleapis.com/v1/images:annotate?key=AIzaSyCoqCv86VXhWoIdCZnRLAEnrf6D62SU9MM';
-
-        // Costruisci l'array del corpo della richiesta
-        $requestBody = [
-            'requests' => [
+        $response = $client->post('http://api.meaningcloud.com/topics-2.0', [
+            'multipart' => [
                 [
-                    'image' => [
-                        'source' => [
-                            'imageUri' => $link_notizia,
-                        ],
-                    ],
-                    'features' => [
-                        [
-                            'type' => 'LABEL_DETECTION',
-                            'maxResults' => 10,
-                        ],
-                    ],
+                    'name'     => 'key',
+                    'contents' => '67c9440dc405a5d91f525337bc88baaf'
                 ],
-            ],
-        ];
+                [
+                    'name'     => 'url',
+                    'contents' => $link_notizia
+                ],
+                [
+                    'name'     => 'lang',
+                    'contents' => 'it'  # 2-letter code, like en es fr ...
+                ],
+                [
+                    'name'     => 'tt',
+                    'contents' => 'a'                   # all topics
+                ]        
+            ]
+        ]);
 
-        // Effettua la richiesta POST utilizzando Guzzle
-        /*$response = $client->post($url, [
-            'headers' => [
-                'Content-Type' => 'application/json',
-            ],
-            'json' => $requestBody,
-        ]);*/
-
-        // Esegui la richiesta POST
-        /*$response = $client->createRequest()
-                    ->setMethod('POST')
-                    ->setUrl($url)
-                    ->setData($requestBody)
-                    ->send();
-
-        $soggetti='';
-
-        // Verifica se la richiesta è andata a buon fine
-        if ($response->isOk) {
-            // Ottieni il corpo della risposta come stringa
-            $soggetti = $response->content;
-
-            // Decodifica il corpo della risposta JSON
-            //$data = json_decode($responseBody, true);
-
-            //$soggetti=json_encode($data);
-        } 
-        else 
-        {
-        // La richiesta ha restituito un errore
-        echo 'Errore nella richiesta: ' . $response->statusCode;
-        }*/
+        $status = $response->getStatusCode();
+        $body = json_decode($response->getBody()->getContents(), true);
+        $soggetti=json_encode($body);
 
         return $soggetti;
     }  
