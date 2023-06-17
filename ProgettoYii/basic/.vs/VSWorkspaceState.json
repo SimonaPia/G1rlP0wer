@@ -11,6 +11,10 @@
     "\\views\\layouts",
     "\\views\\site"
   ],
+<<<<<<< HEAD
+  "SelectedNode": "\\controllers\\SiteController.php",
+=======
   "SelectedNode": "\\models\\Immagine.php",
+>>>>>>> b2fafa1eb30e01264581f1636d39b9bace8f1561
   "PreviewInSolutionExplorer": false
 }

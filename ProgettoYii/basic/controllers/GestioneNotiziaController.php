@@ -187,6 +187,7 @@ class GestioneNotiziaController extends Controller
             echo 'Richiesta fallita con ' . $response->getStatusCode() . ': ' . $response->getContent();
          }
 
+
          if (stripos($link_notizia, "https") !== false) {
             $categoria=$this->categoria($link_notizia);
             // Creazione dell'istanza del controller di destinazione
