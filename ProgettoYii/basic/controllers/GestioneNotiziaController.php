@@ -16,6 +16,63 @@ class GestioneNotiziaController extends Controller
 {
     public function actionInserimento()
     {
+<<<<<<< HEAD
+        $link_notizia=Yii::$app->session->get('link');
+
+        $categoria=$this->categoria();
+        //$dataCategoria=json_decode($categoria, true);
+
+        $data1 = $categoria['data'];
+
+        $attributes = $data1['attributes'];
+        $lastHtpResponseHeaders = $attributes['last_http_response_headers'];
+        $contentType=$lastHtpResponseHeaders['Content-Type'];
+
+        $lastAnalysisStats=$attributes['last_analysis_stats'];
+        $harmless=$lastAnalysisStats['harmless'];
+        $malicious=$lastAnalysisStats['malicious'];
+        $suspicious=$lastAnalysisStats['suspicious'];
+        $undetected=$lastAnalysisStats['undetected'];
+        $timeout=$lastAnalysisStats['timeout'];
+
+        $categories=$attributes['categories'];
+        $argomenti=implode(', ', $categories);
+
+        $indice=($harmless+$malicious+$suspicious+$undetected+$timeout)/5;
+
+        $incongruenze=$this->incongruenze($indice);
+
+        $notizia=new Notizia();
+
+        $notizia->Notizia=$link_notizia;
+        $notizia->Indice=$indice;
+        $notizia->Categoria=$contentType;
+        $notizia->Argomento=$argomenti;
+        $notizia->Incongruenze=$incongruenze;
+
+        $controllo=0;
+
+        if(Yii::$app->request->post('segnala' && 'b1')!==null)
+        {
+            $controllo=1;
+        }
+
+        $redirectUrl = Url::to(['gestione-notizia/analisi', 'indice' => $indice, 'controllo' => $controllo]);
+
+        if ($notizia->save()) {
+            return $this->redirect($redirectUrl);
+        }
+        else 
+        {
+            // Salvataggio fallito, visualizza gli errori
+            $errors = $notizia->getErrors();
+            var_dump($errors);
+        }
+        
+        return $this->render('inserimento');
+
+
+=======
         $link_notizia=Yii::$app->session->get('notizia');
 
         if (stripos($link_notizia, "https") !== false) {
@@ -162,6 +219,7 @@ class GestioneNotiziaController extends Controller
              } else {
                  echo 'Richiesta fallita con ' . $response->getStatusCode() . ': ' . $response->getContent();
              }
+>>>>>>> b2fafa1eb30e01264581f1636d39b9bace8f1561
     }
 
     public function incongruenze($indice)
@@ -174,7 +232,11 @@ class GestioneNotiziaController extends Controller
 
     public function categoria()
     {
+<<<<<<< HEAD
+        $link_notizia=Yii::$app->session->get('link');
+=======
         $link_notizia=Yii::$app->session->get('notizia');
+>>>>>>> b2fafa1eb30e01264581f1636d39b9bace8f1561
 
         $urlId = rtrim(strtr(base64_encode($link_notizia), '+/', '-_'), '=');
     
@@ -201,9 +263,15 @@ class GestioneNotiziaController extends Controller
          return $responseData;
     }
 
+<<<<<<< HEAD
+    public function actionAnalisi($indice, $controllo)
+    {
+        $link_notizia=Yii::$app->session->get('link');
+=======
     public function actionAnalisi($indice)
     {
         $link_notizia=Yii::$app->session->get('notizia');
+>>>>>>> b2fafa1eb30e01264581f1636d39b9bace8f1561
 
         $client = new Client();
 
@@ -229,6 +297,18 @@ class GestioneNotiziaController extends Controller
              echo 'Richiesta fallita con ' . $response->getStatusCode() . ': ' . $response->getContent();
          }
 
+<<<<<<< HEAD
+         $categoria=$this->categoria();
+         $messaggio=$this->analisi($controllo);
+       
+
+    return $this->render('analisi', ['jsonData' => json_encode($data), 'indice' => json_encode($indice),'messaggio'=>$messaggio]);
+    }
+
+    public function analisi($controllo)
+	{
+		$link_notizia=Yii::$app->session->get('link');
+=======
          if (stripos($link_notizia, "https") !== false) {
              $categoria=$this->categoria($link_notizia);
              $this->analisi();
@@ -319,6 +399,7 @@ class GestioneNotiziaController extends Controller
     public function analisi()
 	{
 		$link_notizia=Yii::$app->session->get('notizia');
+>>>>>>> b2fafa1eb30e01264581f1636d39b9bace8f1561
     
         $apiKey = '7f131cfc0c77133d0ce81e4cea38e7acdb524ea930e443f31c6ddb9dd158829d';
 
@@ -388,8 +469,46 @@ class GestioneNotiziaController extends Controller
         }
         
         //return $this->render('inserimento');
+<<<<<<< HEAD
+
+
+        function segnalazione($link_notizia)
+        {
+            $logFile = 'segnalazione.log';
+            $timestamp = date('Y-m-d H:i:s');
+            $logMessage = "[$timestamp] Segnalazione di notizia: $link_notizia" . PHP_EOL;
+        
+            // Apri il file di log in modalità append
+            $handle = fopen($logFile, 'a');
+            // Scrivi il messaggio di segnalazione nel file di log
+            fwrite($handle, $logMessage);
+            // Chiudi il file
+            fclose($handle);
+        }
+        
+        $blacklist = array();
+        
+        $messaggio='';
+
+        if($controllo==1)
+        {
+            // Aggiungi elementi alla blacklist
+            $blacklist[] = 'https://staticfanpage.akamaized.net/wp-content/uploads/sites/34/2023/03/Screenshot-2023-03-26-alle-20.24.23.jpg';
+        
+            // Verifica se un elemento è presente nella blacklist
+            $siteToCheck = $link_notizia;
+            if (in_array($siteToCheck, $blacklist)) {
+            $messaggio='Il sito è nella blacklist.';
+            } else {
+             $messaggio='Il sito non è nella blacklist.';
+             }
+        }
+        return $messaggio;
+    }
+=======
 	}
 
     
+>>>>>>> b2fafa1eb30e01264581f1636d39b9bace8f1561
 
 }
