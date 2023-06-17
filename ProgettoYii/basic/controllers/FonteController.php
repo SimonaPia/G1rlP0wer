@@ -2,9 +2,21 @@
 
 namespace app\controllers;
 
-class FonteController extends \Controller
+use yii\g1rlp0wer\Query;
+use Yii;
+use yii\filters\AccessControl;
+use yii\web\Controller;
+use yii\web\Response;
+use yii\filters\VerbFilter;
+use app\models\Notizia;
+use app\models\Immagine;
+use app\models\Fonte;
+use yii\httpclient\Client;
+use yii\helpers\Url;
+
+class FonteController extends Controller
 {
-	public function analisi()
+	public function actionAnalisiFonte()
 	{
 		$link_notizia=Yii::$app->session->get('notizia');
     
